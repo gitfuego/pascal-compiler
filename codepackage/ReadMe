@@ -1,20 +1,25 @@
+
+
+
 Files
 -----
 
 instrutil.h and instrutil.c:
-   contains helper functions for code generation
+   contain helper functions for code generation
 
 parse.y:
-  contains incomplete and wrong syntax rules; meant to illustrate
-  the use of the helper functions in instrutil.h/c 
-
-
+  computer-readable grammar rules for the language
 
 testcases/
-  contains basic test cases; check project description, different test cases
-weight differently. 
+  contains basic test cases, sample code input
 
 iloc.out
 	When you run "codegen", the generated iloc code should be in
 "iloc.out"
+
+Makefile:
+  Run "make" to produce "codegen" which will generate the iloc
+code according to the input code files
+
+
 
