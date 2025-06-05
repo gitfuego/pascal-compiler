@@ -1,0 +1,14 @@
+program main;
+var i, a: integer;
+    nums: array [1..10] of integer;
+begin
+  a := 0;
+  for i := 1,10 do
+    nums[i] := i + 1;
+  for i := 1,10 do
+    begin
+      a := a + nums[i];
+      writeln(nums[i] * 3)
+    end;
+  writeln(a)
+end.

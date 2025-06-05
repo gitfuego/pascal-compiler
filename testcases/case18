@@ -1,0 +1,19 @@
+program main;
+var a, i: integer;
+    nums: array[1..10] of integer;
+    found: boolean;
+begin
+  a := 15;
+  for i := 1,10 do
+    nums[i] := i + 4 * 2;
+  for i := 1,10 do
+    if nums[i] == a then
+      begin
+        writeln(i);
+        found := true
+      end;
+  if found then
+    writeln(0)
+  else
+    writeln(1)
+end.

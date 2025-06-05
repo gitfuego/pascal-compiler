@@ -1,0 +1,14 @@
+program main;
+var a, b: integer;
+    c: array[1..10] of boolean;
+begin
+  for a := 1, 10 do
+    if a < 5 then
+      c[a] := true
+    else
+      c[a] := false;
+  if c[5] == true then
+    writeln(a)
+  else
+    writeln(a-1)
+end.

@@ -1,0 +1,10 @@
+program main;
+var a, b: integer;
+begin
+  a := 1;
+  b := 2;
+  if a < b then
+    a := a + 4;
+  writeln(a);
+  writeln(b)
+end.

@@ -1,0 +1,9 @@
+program main;
+var a, b: integer;
+    c: array[1..10] of integer;
+begin
+  for a := 1, 10 do
+    for b := 5, 10 do
+      c[a] := a + b;
+  writeln(c[10])
+end.

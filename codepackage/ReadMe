@@ -1,0 +1,20 @@
+Files
+-----
+
+instrutil.h and instrutil.c:
+   contains helper functions for code generation
+
+parse.y:
+  contains incomplete and wrong syntax rules; meant to illustrate
+  the use of the helper functions in instrutil.h/c 
+
+
+
+testcases/
+  contains basic test cases; check project description, different test cases
+weight differently. 
+
+iloc.out
+	When you run "codegen", the generated iloc code should be in
+"iloc.out"
+

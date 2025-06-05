@@ -1,0 +1,14 @@
+program main;
+var a, b: integer;
+    bools: array [1..2] of boolean;
+begin
+  a := 1;
+  b := 2;
+  bools[1] := true;
+  bools[2] := false;
+  if bools[1] and bools[2] == true then
+    writeln(a)
+  else
+    if bools[1] or bools[2] == true then
+      writeln(b)
+end.

@@ -1,0 +1,11 @@
+program main;
+var a, b, c: integer;
+    nums: array[1..10] of integer;
+    found: boolean;
+begin
+  nums[1] := 1;
+  for a := 2,10 do
+    nums[a] := nums[a - 1] + 2;
+  writeln(nums[5]);
+  writeln(nums[10])
+end.

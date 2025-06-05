@@ -1,0 +1,16 @@
+program main;
+var a: integer;
+    i: integer;
+    b1, b2, b3, which: boolean;
+begin
+  b1 := true;
+  b2 := true;
+  b3 := false;
+  which := b1 and (b2 or b3);
+  a := 5;
+  if which then
+    a := a - 1
+  else
+    a := a * 2;
+  writeln(a)
+end.

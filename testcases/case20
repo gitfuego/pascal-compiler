@@ -1,0 +1,8 @@
+program main;
+var a, b, c: integer;
+begin
+  a := 1;
+  b := 2;
+  c := 3;
+  writeln(a + b + c + (a * b * c) + a - b - c)
+end.

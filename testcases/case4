@@ -1,0 +1,15 @@
+program main;
+var a, b: integer;
+    addstuff: boolean;
+begin
+  a := 1;
+  b := 2;
+  addstuff := true;
+  while addstuff do
+    begin
+      a := a + 1;
+      addstuff := false
+    end;
+  writeln(a);
+  writeln(b)
+end.
